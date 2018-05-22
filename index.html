@@ -1,39 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Formulaires</title>
-        <link rel="stylesheet" href="css/reset.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-    </head>
 
-    <body>
-        <form action="post" method="#" class="form1">
-            <fieldset>
-                <label for="first">Full Name<sup>*</sup></label>
-                    <input type="text" id="first" placeholder="First" required/>
-                    <input type="text" id="last" placeholder="Last" required/>
-            </fieldset>
+<head>
+    <meta charset="utf-8">
+    <title>Formulaires</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-            <fieldset class="email">
-                <label for="email">Email<sup>*</sup></label>
-                    <input type="email" id="email" required/>
-            </fieldset>
+<body>
+    <form action="post" method="#" class="form1">
+        <fieldset>
+            <label for="first">Full Name<sup>*</sup></label>
+            <input type="text" id="first" placeholder="First" required/>
+            <input type="text" id="last" placeholder="Last" required/>
+        </fieldset>
 
-            <fieldset>
-                <label for="subject">Subject</label>
-                <select name="subject" id="subject">
+        <fieldset class="email">
+            <label for="email">Email<sup>*</sup></label>
+            <input type="email" id="email" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject">
                     <option value="advertise">Advertise</option>
                     <option value="lorem">Lorem</option>
                     <option value="ipsum">Ipsum</option>
                 </select>
 
-            </fieldset>
-            <fieldset>
-                <label for="message">Your Message<sup>*</sup></label>
-                <textarea name="message" id="message" required></textarea>
-            </fieldset>
-                <input type="submit" value="Submit" class="button1" />
-        </form>
-    </body>
+        </fieldset>
+        <fieldset>
+            <label for="message">Your Message<sup>*</sup></label>
+            <textarea name="message" id="message" required></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" class="button1" />
+    </form>
+
+    <!--debut du formulaire 2 -->
+
+    <form action="post" method="#" class="form2">
+        <fieldset>
+            <label for="name"> Name<sup>*</sup></label>
+            <input type="text" id="name" required/>
+        </fieldset>
+
+        <fieldset class="email">
+            <label for="email">Email<sup>*</sup></label>
+            <input type="email" id="email" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+                    <option value="advertise">Advertise</option>
+                    <option value="lorem">Lorem</option>
+                    <option value="ipsum">Ipsum</option>
+                </select>
+
+        </fieldset>
+        <fieldset>
+            <label for="message">Your Message<sup>*</sup></label>
+            <textarea name="message" id="message" required></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" class="button1" />
+    </form>
+
+
+
+</body>
+
+
 </html>

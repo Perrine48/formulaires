@@ -8,21 +8,21 @@
     </head>
 
     <body>
-        <form action="post" method="#">
+        <form action="post" method="#" class="form1">
             <fieldset>
-                <label for="first" for="Last">Full Name<sup>*</sup></label>
-                    <input type="first" id="first" placeholder="First" required/>
-                    <input type="last" id="last" placeholder="Last" required/>
+                <label for="first">Full Name<sup>*</sup></label>
+                    <input type="text" id="first" placeholder="First" required/>
+                    <input type="text" id="last" placeholder="Last" required/>
             </fieldset>
-            <fieldset>
 
+            <fieldset class="email">
                 <label for="email">Email<sup>*</sup></label>
                     <input type="email" id="email" required/>
             </fieldset>
 
             <fieldset>
                 <label for="subject">Subject</label>
-                <select name="subject" id="subject"/>
+                <select name="subject" id="subject">
                     <option value="advertise">Advertise</option>
                     <option value="lorem">Lorem</option>
                     <option value="ipsum">Ipsum</option>
@@ -31,11 +31,9 @@
             </fieldset>
             <fieldset>
                 <label for="message">Your Message<sup>*</sup></label>
-                <input type="message" id="message" required/>
-                <input type="submit" value="Submit" />
-
-           </fieldset>
-
+                <textarea name="message" id="message" required></textarea>
+            </fieldset>
+                <input type="submit" value="Submit" class="button1" />
         </form>
     </body>
 </html>

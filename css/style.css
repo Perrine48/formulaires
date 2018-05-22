@@ -1,6 +1,25 @@
+/*Formulaire 1---------------------------------------------------------------*/
+
+.form1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
 sup {
     color:red;
 }
 label{
     display: block;
+}
+
+fieldset{
+    margin: 1%;
+}
+
+.button1{
+    margin: 1%;
+}
+
+#email{
+    width: 19.4%;
 }

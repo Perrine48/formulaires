@@ -18,8 +18,24 @@ fieldset{
 
 .button1{
     margin: 1%;
+    background-color: #3c97ae;
+    color: white;
+    border: none;
+    padding: 1%;
+    font-size: 1.5em;
 }
 
 #email{
     width: 19.4%;
 }
+#subject{
+    width: 19.4%;
+}
+#message {
+    width: 19.4%;
+    height: 15em;
+}
+/*fin du premier Formulaire*/
+
+
+/*début de second formulaire*/

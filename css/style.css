@@ -8,7 +8,7 @@
 sup {
     color:red;
 }
-label{
+.f1{
     display: block;
 }
 
@@ -37,5 +37,18 @@ fieldset{
 }
 /*fin du premier Formulaire*/
 
-
+form {
+    border-bottom: solid black 5px;
+}
 /*début de second formulaire*/
+.form2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.leg2 {
+    font-size: 1.5em;
+    border-bottom: solid 3px grey;
+    width: 50%;
+    margin: 1%;
+}

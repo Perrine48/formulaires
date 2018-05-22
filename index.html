@@ -11,27 +11,27 @@
 <body>
     <form action="post" method="#" class="form1">
         <fieldset>
-            <label for="first">Full Name<sup>*</sup></label>
+            <label for="first" class="f1">Full Name<sup>*</sup></label>
             <input type="text" id="first" placeholder="First" required/>
             <input type="text" id="last" placeholder="Last" required/>
         </fieldset>
 
         <fieldset class="email">
-            <label for="email">Email<sup>*</sup></label>
+            <label for="email" class="f1">Email<sup>*</sup></label>
             <input type="email" id="email" required/>
         </fieldset>
 
         <fieldset>
-            <label for="subject">Subject</label>
+            <label for="subject" class="f1">Subject</label>
             <select name="subject" id="subject">
                     <option value="advertise">Advertise</option>
                     <option value="lorem">Lorem</option>
                     <option value="ipsum">Ipsum</option>
                 </select>
-
         </fieldset>
+
         <fieldset>
-            <label for="message">Your Message<sup>*</sup></label>
+            <label for="message" class="f1">Your Message<sup>*</sup></label>
             <textarea name="message" id="message" required></textarea>
         </fieldset>
         <input type="submit" value="Submit" class="button1" />
@@ -40,35 +40,38 @@
     <!--debut du formulaire 2 -->
 
     <form action="post" method="#" class="form2">
+        <legend class="leg2">Provide your information</legend>
         <fieldset>
-            <label for="name"> Name<sup>*</sup></label>
-            <input type="text" id="name" required/>
+            <label for="name2"> Name<sup>*</sup></label>
+            <input type="text" id="name2" required/>
         </fieldset>
 
         <fieldset class="email">
-            <label for="email">Email<sup>*</sup></label>
-            <input type="email" id="email" required/>
+            <label for="email2">Email<sup>*</sup></label>
+            <input type="email" id="email2" required/>
         </fieldset>
 
         <fieldset>
-
+            <label for="tel">Telephone</label>
+            <input type="tel" id="tel"/>
+            <input type="tel" id="tel2"/>
+            <input type="tel" id="tel3"/>
         </fieldset>
 
-
         <fieldset>
-            <label for="subject">Subject</label>
-            <select name="subject" id="subject">
-                    <option value="advertise">Advertise</option>
+            <label for="subject2">Regarding</label>
+            <select name="subject2" id="subject2">
+                    <option value="general">General</option>
                     <option value="lorem">Lorem</option>
                     <option value="ipsum">Ipsum</option>
                 </select>
+            </fieldset>
 
-            </fieldset>
             <fieldset>
-                <label for="message">Your Message<sup>*</sup></label>
-                <textarea name="message" id="message" required></textarea>
+                <label for="message2">Message<sup>*</sup></label>
+                <textarea name="message2" id="message2" required></textarea>
             </fieldset>
-                <input type="submit" value="Submit" class="button1" />
+                <input type="submit" value="Submit" class="button2" />
         </form>
     </body>
 </html>

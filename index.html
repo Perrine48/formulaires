@@ -40,38 +40,77 @@
     <!--debut du formulaire 2 -->
 
     <form action="post" method="#" class="form2">
-        <legend class="leg2">Provide your information</legend>
         <fieldset>
+            <legend class="leg2">Provide your information</legend>
             <label for="name2" class="int2"> Name<sup>*</sup></label>
-            <input type="text" id="name2" class="field2"required/>
+            <input type="text" id="name2" class="field2" required/>
         </fieldset>
 
         <fieldset class="email">
             <label for="email2" class="int2">Email<sup>*</sup></label>
-            <input type="email" id="email2"  class="field2" required/>
+            <input type="email" id="email2" class="field2" required/>
         </fieldset>
 
         <fieldset>
             <label for="tel" class="int2">Telephone</label>
-            <input type="tel" class="field2" id="tel"/>
-            <input type="tel" id="tel2"/>
-            <input type="tel" id="tel3"/>
+            <input type="tel" class="field2" id="tel" />
+            <input type="tel" id="tel2" />
+            <input type="tel" id="tel3" />
         </fieldset>
 
         <fieldset>
             <label for="subject2" class="int2">Regarding</label>
-            <select name="subject2"  class="field2" id="subject2">
+            <select name="subject2" class="field2" id="subject2">
                     <option value="general">General</option>
                     <option value="lorem">Lorem</option>
                     <option value="ipsum">Ipsum</option>
                 </select>
-            </fieldset>
+        </fieldset>
 
-            <fieldset>
-                <label for="message2" class="int2">Message<sup>*</sup></label>
-                <textarea name="message2" id="message2"  class="field2" required></textarea>
-            </fieldset>
-                <input type="submit" value="Submit" class="button2" />
-        </form>
-    </body>
+        <fieldset>
+            <label for="message2" class="int2">Message<sup>*</sup></label>
+            <textarea name="message2" id="message2" class="field2" required></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" class="button2" />
+
+    </form>
+
+    <!-- début du formulaire 3 -->
+
+
+    <form action="post" method="#" class="form3">
+        <fieldset class="f3">
+            <legend class="leg3">Personal</legend>
+            <label for="name3" class="field3"> Name<sup>*</sup></label>
+            <input type="text" id="name3" class="field3" required/>
+
+
+
+            <label for="email3" class="field3">Email<sup>*</sup></label>
+            <input type="email" id="email3" class="field3" required/>
+
+
+            <label for="phone3" class="field3">Telephone<sup>*</sup></label>
+            <input type="tel" class="field3" id="phone3" />
+
+
+            <label for="subject3" class="field3">Subject</label>
+            <select name="subject3" class="field3" id="subject3">
+                <option value="appointment">Appointment</option>
+                <option value="lorem">Lorem</option>
+                <option value="ipsum">Ipsum</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="f3">
+            <legend class="leg3">Message</legend>
+            <label for="message3" class="field3">Message<sup>*</sup></label>
+            <textarea name="message3" id="message3" class="field3" required></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" class="button3" />
+
+    </form>
+
+</body>
+
 </html>

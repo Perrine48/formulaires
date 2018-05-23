@@ -84,6 +84,17 @@ form {
 .f3 {
 
     border: 1px red solid;
-    
+    width: 19%;
+    padding: 2% 10% 2% 2%;
+}
 
+.field3 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1% 0 2% 0;
+    width: 10em;
+}
+
+.form3 input {
+    width: 5em;
 }

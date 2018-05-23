@@ -1,6 +1,6 @@
 /*Formulaire 1---------------------------------------------------------------*/
 
-.form1{
+.form1 {
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -8,15 +8,15 @@
 sup {
     color:red;
 }
-.f1{
+.f1 {
     display: block;
 }
 
-fieldset{
+fieldset {
     margin: 1%;
 }
 
-.button1{
+.button1 {
     margin: 1%;
     background-color: #3c97ae;
     color: white;
@@ -25,10 +25,10 @@ fieldset{
     font-size: 1.5em;
 }
 
-#email{
+#email {
     width: 19.4%;
 }
-#subject{
+#subject {
     width: 19.4%;
 }
 #message {
@@ -48,7 +48,7 @@ form {
 
 .leg2 {
     font-size: 1.5em;
-    border-bottom: solid 3px grey;
+    border-bottom: solid 3px #DCDCDC;
     width: 50%;
     margin: 1%;
 }
@@ -57,10 +57,23 @@ form {
     background-color:#FF8700;
     color: white;
     border: none;
-    padding: 1%;
-    margin:1%;
-    margin-left: 5%;
+    padding: 0.8%;
+    margin:1% 1% 1% 12%;
+    border-radius: 10%;
+    font-size: 1.2em;
 }
 .field2 {
+    display: inline-block;
     margin-left: 7%;
+    height: 1.5em;
+}
+
+.int2 {
+    display: inline-block;
+    width: 5em;
+}
+
+#tel, #tel2, #tel3 {
+    width: 4em;
+    height: 1.5em;
 }

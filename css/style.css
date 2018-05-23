@@ -52,3 +52,15 @@ form {
     width: 50%;
     margin: 1%;
 }
+
+.button2 {
+    background-color:#FF8700;
+    color: white;
+    border: none;
+    padding: 1%;
+    margin:1%;
+    margin-left: 5%;
+}
+.field2 {
+    margin-left: 7%;
+}

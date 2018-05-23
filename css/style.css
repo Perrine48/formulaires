@@ -83,9 +83,10 @@ form {
 
 .f3 {
 
-    border: 1px red solid;
-    width: 19%;
-    padding: 2% 10% 2% 2%;
+    border: 1px #fed0d2 solid;
+    width: 25%;
+    padding: 2% 5% 2% 2%;
+    border-radius: 5%;
 }
 
 .field3 {
@@ -93,8 +94,25 @@ form {
     vertical-align: top;
     margin: 1% 0 2% 0;
     width: 10em;
+
 }
 
 .form3 input {
-    width: 5em;
+    width: 13em;
+
+}
+
+.form3 textarea {
+
+width: 20em;
+height: 8em;
+display: inline;
+}
+
+.leg3 {
+
+    border: #fed0d2 solid 2px;
+    border-bottom: none;
+    border-radius: 20% 20% 0 0;
+    padding: 3%;
 }
